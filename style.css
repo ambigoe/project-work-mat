@@ -1,0 +1,221 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+}
+
+/* NAVIGATION: */
+.nav-bar {
+  /*border: 2px solid red;*/
+  list-style-type: none;
+  background-color: rgb(35, 133, 142);
+  display: flex;
+  padding: 10px;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav-bar li a {
+  color: brown;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.nav-bar li a:hover {
+  color: #ff00e6;
+}
+
+/* HEADER: */
+.home-header {
+  /*border: 2px solid red;*/
+  min-height: 100vh;
+  background-image: url("./images/pineapple-supply-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.home-header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 5px 5px 5px green;
+}
+
+.home-header p {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: red;
+
+  margin: 20px 0;
+}
+.home-header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+/*About us*/
+
+.about-header {
+  /*border: 2px solid red;*/
+  min-height: 100vh;
+  background-image: url("./images/the-halal-design-studio-ZcldgIphJlw-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+.about-header p {
+  color: red;
+  width: 50%;
+  margin: 20px 0;
+}
+.about-header h2 {
+  color: red;
+  text-shadow: 5px 5px 5px green;
+}
+.recipe-section {
+  border: 2px solid red;
+  min-height: 100vh;
+  background-color: rgb(200, 174, 178);
+}
+
+#section-heading {
+  color: red;
+  text-shadow: 5px 5px 5px green;
+}
+
+.recipe-header {
+  /*border: 2px solid red;*/
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(187, 181, 182);
+  display: flex;
+}
+
+.recipe1-section {
+  /*border: 3px dotted purple;*/
+  margin: 20px 30px;
+  padding: 20px 25px;
+  width: 600px;
+}
+
+.recipe2-section {
+  /*border: 3px dotted green;*/
+  margin: 20px 30px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 600px;
+}
+
+/*Partners*/
+.partner-page {
+  /*border: 2px solid red;*/
+  min-height: 100vh;
+  background-color: rgb(200, 174, 178);
+  margin: 0;
+  top: 0;
+  display: flex;
+}
+#partner-title {
+  color: red;
+  text-shadow: 5px 5px 5px green;
+}
+
+.partners-table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: greenyellow;
+}
+
+th,
+td {
+  padding: 5px 10px;
+  width: 25%;
+  height: 150px;
+}
+
+.heading {
+  width: 200px;
+  height: 50px;
+}
+.row {
+  width: 100%;
+}
+
+/*CONTACT*/
+.contact-header {
+  min-height: 100vh;
+  background-image: url("./images/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  margin: 0;
+  top: 0;
+}
+
+.contact-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 5px 5px 5px green;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: end;*/
+}
+.page-footer {
+  /*border: 2px solid red;*/
+  /*background-color: rgb(200, 174, 178);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  /*min-height: 60vh;*/
+}
+
+.page-footer ul {
+  /* border: 2px solid red; */
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.page-footer ul li a {
+  padding: 20px;
+  margin: 50px;
+  font-size: 80px;
+  color: black;
+}
+
+.page-footer ul li a:hover {
+  color: blue;
+}
